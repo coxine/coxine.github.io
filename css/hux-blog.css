@@ -1092,3 +1092,7 @@ img::-moz-selection {
 .page-fullscreen footer .copyright a:hover {
   color: #ddd;
 }
+body > nav{
+  background:rgba(17,69,20,0.7) !important;
+  backdrop-filter:blur(15px);
+}
