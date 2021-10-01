@@ -1,18 +1,18 @@
 # Site settings
-title: ZHR Blog
-SEOTitle: Haoran's blog | ZHR Blog
-header-img: img/post-bg-desk.jpg
-email: hr.zhang@gatech.edu
-description: ”If you don't live to what you think, you would think in the way you live"
-keyword: "ZHR, ZHR Blog, Haoran的博客, HaoranZhang, zhanghaoran, software"
-url: "http://zhr1996.github.io"          # your host, for absolute URL
+title: 余弦之声
+SEOTitle: Coxine's blog
+header-img: img/Coxine.jpg
+email: cosinetg@88.com
+description: 排除万难，争取胜利！
+keyword: "余弦,余弦之声,余弦博客,考神天国"
+url: "https://coxine.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/zhr1996/zhr1996.github.io.git" # you code repository
+github_repo: "https://github.com/coxine/coxine.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "If you don't live to what you think, you would think in the way you live!"
-sidebar-avatar: /img/haoran.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "苟利国家生死以，岂因祸福避趋之！"
+# sidebar-avatar:      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -57,7 +57,7 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-disqus_username: hrzhang
+disqus_username: Coxine
 
 # Gitalk
 gitalk:
@@ -91,7 +91,7 @@ featured-condition-size: 1              # 相同标签数量大于这个数，�
 
 
 # Progressive Web Apps
-chrome-tab-theme-color: "#000000"
+chrome-tab-theme-color: "#114514"
 service-worker: true
 
 
@@ -99,16 +99,10 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "余弦导航站",
+        href: "https://costg.cf"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "瑞治下载站",
+        href: "https://pan.costg.cf"
     }
 ]
