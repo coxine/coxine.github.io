@@ -14,7 +14,7 @@
   }
 }
 .sidebar-container {
-  color: #bfbfbf;
+  color: #ddd;
   font-size: 14px;
 }
 .sidebar-container h5 {
@@ -140,7 +140,7 @@ body {
      */
   font-family: ceym;
   font-size: 16px;
-  color: #404040;
+  color: #ccc;
   overflow-x: hidden;
   background:rgba(5,34,7,0.7);
 }
@@ -166,7 +166,7 @@ h4 {
   font-size: 21px;
 }
 a {
-  color: #404040;
+  color: #bbb;
 }
 a:hover,
 a:focus {
@@ -477,14 +477,14 @@ pre code {
     transition: transform 0.3s;
   }
   .navbar-custom.is-fixed .navbar-brand {
-    color: #404040;
+    color: #bbb;
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
     color: #0085a1;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: #404040;
+    color: #bbb;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
@@ -637,14 +637,14 @@ pre code {
 }
 .post-preview > .post-meta {
   font-family: 'Lora', 'Times New Roman', serif;
-  color: #808080;
+  color: #ddd;
   font-size: 16px;
   font-style: italic;
   margin-top: 0;
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #404040;
+  color: #bbb;
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
@@ -667,7 +667,7 @@ pre code {
 .post-content-preview {
   font-size: 13px;
   font-style: italic;
-  color: #a3a3a3;
+  color: #ddd;
 }
 .post-content-preview:hover {
   color: #0085a1;
@@ -814,7 +814,7 @@ form .row:first-child .floating-label-form-group {
   }
 }
 .pager li > a {
-  color: #404040;
+  color: #bbb;
 }
 .pager li > a:hover,
 .pager li > a:focus {
@@ -855,12 +855,12 @@ img::-moz-selection {
 /* Hux add tags support */
 .tags {
   margin-bottom: -5px;
-  background:rgba(5,34,7,0.7) !important;
 }
 .tags a,
 .tags .tag {
   display: inline-block;
   border: 1px solid rgba(255, 255, 255, 0.8);
+  background:rgba(5,34,7,0.7) !important;
   border-radius: 999em;
   padding: 0 10px;
   color: #ffffff;
@@ -990,6 +990,9 @@ img::-moz-selection {
   max-width: 100%;
   height: auto;
   margin: 1.5em auto 1.6em auto;
+}
+.zh.post-container {
+  color: #eee;
 }
 /* Hux Optimize UserExperience */
 .navbar-default .navbar-toggle:focus,
