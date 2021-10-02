@@ -18,11 +18,11 @@
   font-size: 14px;
 }
 .sidebar-container h5 {
-  color: #808080;
+  color: #eee;
   padding-bottom: 1em;
 }
 .sidebar-container h5 a {
-  color: #808080 !important;
+  color: #eee !important;
   text-decoration: none;
 }
 .sidebar-container a {
@@ -142,6 +142,7 @@ body {
   font-size: 16px;
   color: #404040;
   overflow-x: hidden;
+  background:rgba(5,34,7,0.7);
 }
 p {
   margin: 30px 0;
@@ -607,6 +608,12 @@ pre code {
     font-size: 20px;
   }
 }
+.post-preview h1,h2,h3,h4,h5,h6{
+  color: #111;
+}  
+.post-preview h2:hover{
+  color: #0085a1;
+}
 .post-preview > a {
   color: #404040;
 }
@@ -848,6 +855,7 @@ img::-moz-selection {
 /* Hux add tags support */
 .tags {
   margin-bottom: -5px;
+  background:rgba(5,34,7,0.7) !important;
 }
 .tags a,
 .tags .tag {
@@ -1095,4 +1103,7 @@ img::-moz-selection {
 body > nav{
   background:rgba(17,69,20,0.7) !important;
   backdrop-filter:blur(15px);
+}
+body > footer > div > div > div > p{
+  color:#AAA !important; 
 }
