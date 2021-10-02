@@ -609,13 +609,13 @@ pre code {
   }
 }
 .post-preview h1,h2,h3,h4,h5,h6{
-  color: #111;
+  color: #eee;
 }  
 .post-preview h2:hover{
   color: #0085a1;
 }
 .post-preview > a {
-  color: #404040;
+  color: #ccc;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
@@ -1105,5 +1105,5 @@ body > nav{
   backdrop-filter:blur(15px);
 }
 body > footer > div > div > div > p{
-  color:#AAA !important; 
+  color:#ddd !important; 
 }
